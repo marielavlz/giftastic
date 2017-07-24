@@ -1,0 +1,69 @@
+
+/*Buttons*/
+.character {
+	border-radius: 20px;
+    border: #fff 4px solid;
+    line-height: 40px;
+    width: 150px;
+    color: #fff;
+    font-size: 14px;
+    background: #998c46;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.character:hover {
+    color: #f1c40f;
+    border: #f1c40f 4px solid;
+}
+
+/*General Design*/
+
+body{
+    background-image: url(../images/wallpaper3.jpg);
+    background-size: 100% 900px;
+}
+
+.jumbotron{
+    margin-top: 40px;
+    text-align: center;
+    background-image: url(../images/header2.jpg) !important;
+    background-size: 100%;
+    height: 420px;
+}
+
+.logo{
+    position: relative;
+    top: 50px;
+}
+
+/*Picture Gifs*/
+
+.item{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+/*Search Panel*/
+
+.panel-heading{
+    background-color: #998c46 !important;
+    color: #fff !important;
+}
+
+.search-container{
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.panel{
+    width: 500px;
+}
