@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 //Pseudo-code
 //Make an array of characters to display as buttons on the html page.
 //Get an Giphy API and research documentation to place into a queryURL var.
@@ -87,3 +89,5 @@ $(document).on("click", ".character", displayCharacter)
 
 
 renderButtons();
+
+});
